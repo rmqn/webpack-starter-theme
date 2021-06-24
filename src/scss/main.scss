@@ -1,0 +1,15 @@
+/////// à delete //////
+$bg: blue;
+body {
+    background: $bg;
+}
+////////////////////
+
+@import
+    'abstracts/mixins',
+    'abstracts/variables',
+    'abstracts/animations',
+    'abstracts/reset';
+
+@import
+    'components/buttons';
